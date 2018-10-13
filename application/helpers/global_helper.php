@@ -186,7 +186,7 @@
 		    // "attachment"
 		// );
 
-		$sendgrid = new \SendGrid("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");
+		$sendgrid = new \SendGrid("API_KEY");
 
 		try {
 			// pre($response->statusCode() );
